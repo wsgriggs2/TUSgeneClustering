@@ -658,7 +658,7 @@ def create_figure2_monte_carlo(monte_carlo_results=None, tus_silhouette=None, ou
         output_path = os.path.join(config.FIGURES_DIR, 'supplemental_monte_carlo')
 
     # Load K=7 results
-    mc_k7 = pd.read_csv(os.path.join(config.TABLES_DIR, 'monte_carlo_k7_results.csv'))
+    mc_k7 = pd.read_csv(os.path.join(config.TABLES_DIR, 'monte_carlo_dual_k_results.csv'))
 
     k_gran = config.K_GRANULAR
     mean_ari = mc_k7['ari_k7'].mean()
