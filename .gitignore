@@ -27,4 +27,8 @@ nul
 # OS files
 .DS_Store
 Thumbs.db
-output/figures/figure1_main.tiff
+output/
+
+# Data files
+*.zip
+
